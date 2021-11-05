@@ -20,7 +20,7 @@ public class FlowerForest {
 	}
 
 	public static void main(String args[]) {
-		ArrayList<String> flowers_to_match = new ArrayList<>(List.of("pink tulip", "lily of the valley"));
+		ArrayList<String> flowers_to_match = new ArrayList<>(List.of("red tulip", "orange tulip", "white tulip", "pink tulip", "lily of the valley"));
 		FlowerForest flowerForest = new FlowerForest();
 		System.out.printf("x,z\n");
 		for (int x = -9999; x <= 9999; ++x) {
